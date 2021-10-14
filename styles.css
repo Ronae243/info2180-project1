@@ -39,14 +39,17 @@ body {
     width: 82%;
     display: flex;
     border-radius: 5px;
-    border-top: 2px;
+    border-top: 1px solid #E2E8F0;
+    border-bottom: 1px solid #E2E8F0;
+    border-right: 1px solid #E2E8F0;
+    border-left: 1px solid #E2E8F0;
     flex-direction: column;
     align-items: center;
     padding-left:1em;
     padding-right:1em;
     padding-top:1em;
     padding-bottom:1em; 
-    box-shadow: 0px 4px 4.5px 3.6px rgba(131, 131, 131, 0.212);
+    box-shadow: 0px 8px 9px 0px rgba(131, 131, 131, 0.212);
 }
 
 .card-body h3:first-child{
@@ -78,9 +81,9 @@ body {
     background-size: 50px 40px ;
 }
 
-.cta a{ 
+.cta .btn{ 
     display: grid;
-    padding-top: 10px;
+    padding-top: 28px;
     padding-left: 31px;
     padding-right: 31px;
     border-radius: 5px;
@@ -114,6 +117,12 @@ ul{
 li a{ 
     color: #6b7280;
     text-decoration: none;
+    
+}
+
+li a:hover{
+    color: #5A67D8;
+
 }
 
 h1{ 
@@ -215,7 +224,7 @@ article{
 .btn{
     color: white;
     background-color: #5A67D8;
-    height: 43px;
+    height: 56px;
     width: 150px;
     box-shadow: none;
     border: 0;
@@ -229,3 +238,7 @@ footer{
     background-color: #4A5568;
     
 }
+
+
+
+  
