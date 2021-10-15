@@ -16,16 +16,11 @@ function getemail(){
     if (mgs2 == "")
     {
         mgs.innerHTML += failmsg;
-        alert(failmsg);
-        return false;
     }
     else{
         mgs.innerHTML += final;
-        alert(final);
-        return false; 
     }
 }
-
 
 
 window.addEventListener("DOMContentLoaded",function(){
